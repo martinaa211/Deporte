@@ -56,11 +56,6 @@
             border-collapse: collapse;
             border-spacing: 0;
         }
-
-
-          
-          
-          
           
        body{
         background-color: #C0C0C0;
@@ -128,7 +123,7 @@
              
       <ul>
           <li class="selected"><a href="">Inicio</a></li>
-          <li><a href="masinfo.html">Más Información</a></li>
+          <li><a href="mas%20info.html">Más Información</a></li>
           <li><a href="preguntas.html">Preguntas</a></li>
     </ul>
     </header>

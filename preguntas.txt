@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+ <meta charset="utf-8">
+ <title>Cycle Ball</title>
+ <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap:200,700" rel="stylesheet"> 
+
+
+    
+<style>
+
+ /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) / html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } / HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } 
+
+body { 
+line-height: 1; 
+} 
+
+ol, ul { 
+list-style: none; 
+} 
+
+blockquote, q { 
+quotes: none; 
+} 
+
+blockquote:before, blockquote:after, q:before, q:after { 
+content: ''; content: none; 
+} 
+
+table { 
+border-collapse: collapse; 
+border-spacing: 0; 
+} 
+
+    
+       body{
+        background-color: #C0C0C0;
+        color: black;
+        }
+        
+        
+    header{
+        width: 1000px;
+        height: 200px;
+        margin: 0 auto;
+                background-color: whitesmoke;
+        position:relative;
+        font-family: 'Barlow+Semi+Condensed&display', sans-serif;
+          }
+    
+    header img {
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    left: 0px;
+    }
+    
+            header p{
+              position: absolute;
+              bottom: 20px;
+              left: 30px;
+          }
+          
+          header ul{
+              position: absolute;
+              bottom: -16px;
+              right: 0;
+          }
+          
+          header ul li{
+              display: inline-block;
+              font-weight: 500px;
+              font-size: 20px;
+              margin-left: 20px;
+              bottom: 30px;
+              padding-bottom: 5px;
+              text-align: center;
+          }
+          
+          header ul li.selected{
+              border-bottom: 4px solid black;
+          }
+              
+          #main{
+              width: 1000px;
+              margin: auto;
+              position: relative;
+          }
+
+</style> 
+<body>
+<header> 
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/VS1hvpH/oooo.png" alt="oooo" border="0"></a>
+                   <TD WIDTH="100%"><CENTER><H1>Cycle ball</H1></CENTER></TD>
+   
+<ul> 
+<li class="selected"><a href="index.html">Inicio</a></li> 
+
+<li class="selected"><a href="masinfo.html">Más información</a></li> 
+
+<li class="selected"><a href="">Preguntas</a></li>
+</ul>
+</header>
+  
+<p>
+
+Preguntas frecuentes si estás jugando un partido:
+</p> 
+¿Dónde es más popular el Ciclobol?
+<p>
+Por supuesto que en el país inventor, Alemania pero también en otros países como: Austria, Suiza, Bélgica, República Checa y curiosamente, Japón.
+<p>
+¿Cuándo se crearon los primeros campeonatos mundiales?
+<p>
+De acuerdo a distintos historiadores, los torneos de campeonato mundial comenzaron en 1929
+<p>
+¿Ciclobol es un derivado del fútbol o del ciclismo?
+<p>
+La respuesta es sencilla y es que la Unión Ciclista Internacional (UCI) es el organismo encargado de regular este deporte y no la Federación Internacional de Fútbol Asociación (FIFA), por lo que este deporte es considerado una modalidad o derivado del deporte ciclismo.
+<p>
+<center><img src="https://www.huck.net/media/img/images/120-01.jpg" width="537" height="400" class="spoon"></center> 
+</p> 
+ <p>Torneo:</p> <body>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/VzFCCFgpiXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> 
+ <p>
+Juego de Cycle Ball:
+<p>
+<center><iframe src="https://editor.p5js.org/MartinaNunez/full/rR6e3-zt9" width="400" height="650" ></iframe></center>
+</p> 
+</body>
+</html>
